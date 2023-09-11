@@ -30,7 +30,7 @@ namespace DXApplication1
                 var image = new DicomImage(
                     Path.Combine(
                         AppDomain.CurrentDomain.BaseDirectory,
-                        "dcm\\02.DCM"));
+                        "DCM\\02.DCM"));
 
                 var bitmap = image.RenderImage().As<Bitmap>();
 
